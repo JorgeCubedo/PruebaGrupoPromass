@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "400173997253",
+    "firebase_url": "https://pruebagrupopromass-default-rtdb.firebaseio.com",
+    "project_id": "pruebagrupopromass",
+    "storage_bucket": "pruebagrupopromass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400173997253:android:20eac84e9d9e2e56e264ac",
+        "android_client_info": {
+          "package_name": "com.cube.pruebatecnicagrupopromass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400173997253-ll8vj1bk6c6ejdo8r2jekp277jprvomt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV8TJQto_XR7dcudyFjmXpK3rCUHWS31I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400173997253-ll8vj1bk6c6ejdo8r2jekp277jprvomt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
