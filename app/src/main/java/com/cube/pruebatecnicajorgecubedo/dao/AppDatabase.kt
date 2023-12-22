@@ -1,4 +1,4 @@
-package com.cube.pruebatecnicagrupopromass.dao
+package com.cube.pruebatecnicajorgecubedo.dao
 
 import android.content.Context
 import androidx.room.Room

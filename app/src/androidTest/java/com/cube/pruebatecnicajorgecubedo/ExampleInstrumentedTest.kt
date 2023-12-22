@@ -1,4 +1,4 @@
-package com.cube.pruebatecnicagrupopromass
+package com.cube.pruebatecnicajorgecubedo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

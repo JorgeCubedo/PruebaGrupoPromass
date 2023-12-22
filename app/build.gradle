@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.cube.pruebatecnicagrupopromass'
+    namespace 'com.cube.pruebatecnicajorgecubedo'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.cube.pruebatecnicagrupopromass"
+        applicationId "com.cube.pruebatecnicajorgecubedo"
         minSdk 21
         targetSdk 33
         versionCode 1

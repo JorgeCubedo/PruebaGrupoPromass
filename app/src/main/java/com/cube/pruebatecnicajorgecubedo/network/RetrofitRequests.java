@@ -1,4 +1,4 @@
-package com.cube.pruebatecnicagrupopromass.network;
+package com.cube.pruebatecnicajorgecubedo.network;
 
 import com.cube.Entry;
 

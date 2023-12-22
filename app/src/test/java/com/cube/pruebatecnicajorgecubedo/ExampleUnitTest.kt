@@ -1,4 +1,4 @@
-package com.cube.pruebatecnicagrupopromass
+package com.cube.pruebatecnicajorgecubedo
 
 import org.junit.Test
 

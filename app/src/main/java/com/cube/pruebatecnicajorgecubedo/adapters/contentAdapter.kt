@@ -1,15 +1,13 @@
-package com.cube.pruebatecnicagrupopromass.adapters
+package com.cube.pruebatecnicajorgecubedo.adapters
 
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.cube.Entry
-import com.cube.pruebatecnicagrupopromass.R
+import com.cube.pruebatecnicajorgecubedo.R
 
 class ContentAdapter(private val dataSet: ArrayList<String>, private val context: Context) :
     RecyclerView.Adapter<ContentAdapter.ViewHolder>() {

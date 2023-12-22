@@ -1,4 +1,4 @@
-package com.cube.pruebatecnicagrupopromass
+package com.cube.pruebatecnicajorgecubedo
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,7 +14,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import com.cube.Entry
-import com.cube.pruebatecnicagrupopromass.dao.AppDatabase
+import com.cube.pruebatecnicajorgecubedo.dao.AppDatabase
 
 class EntryActivity : AppCompatActivity() {
     private val TAG = EntryActivity::class.simpleName
@@ -36,7 +36,7 @@ class EntryActivity : AppCompatActivity() {
             finish()
         }
         if (!internetCheck(this)) {
-            Toast.makeText(this, "No hay conexion a internet.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "No internet connection.", Toast.LENGTH_LONG).show()
             btnSaveEntry.visibility = View.GONE
         }
         var bundle: Bundle? = intent.extras
@@ -59,8 +59,8 @@ class EntryActivity : AppCompatActivity() {
 
             toolbar.title = title
             txtContent.text = content
-            txtDate.text = "Fecha de publicacion: $date"
-            txtAuthor.text = "Autor: $author"
+            txtDate.text = "Publication Date: $date"
+            txtAuthor.text = "Author: $author"
 
             entry = Entry()
             entry.id = id.toString()
@@ -70,7 +70,7 @@ class EntryActivity : AppCompatActivity() {
             entry.postedDate = date.toString()
         } else {
             Log.d(TAG, "ID is null")
-            Toast.makeText(this, "Error obteniendo la informacion.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Error obtaining informacion.", Toast.LENGTH_LONG).show()
             finish()
         }
 
@@ -92,13 +92,13 @@ class EntryActivity : AppCompatActivity() {
             var db = AppDatabase.getInstance(this)
             db.entryDao().insertEntry(entry)
 
-            Toast.makeText(this, "Entrada guardada correctamente", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Entry saved successfully", Toast.LENGTH_LONG).show()
 
             btnSaveEntry.visibility = View.GONE
         } catch (e: Exception) {
             e.printStackTrace()
 
-            Toast.makeText(this, "Error al guardar entrada, intente mas tarde", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Error saving the entry, try again later.", Toast.LENGTH_LONG).show()
         }
 
     }

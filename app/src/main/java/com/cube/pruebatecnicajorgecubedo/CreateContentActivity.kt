@@ -1,4 +1,4 @@
-package com.cube.pruebatecnicagrupopromass
+package com.cube.pruebatecnicajorgecubedo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,9 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import androidx.room.Room
 import com.cube.Entry
-import com.cube.pruebatecnicagrupopromass.dao.AppDatabase
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import java.util.*

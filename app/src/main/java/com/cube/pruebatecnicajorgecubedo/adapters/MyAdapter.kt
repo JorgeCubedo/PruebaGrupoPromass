@@ -1,4 +1,4 @@
-package com.cube.pruebatecnicagrupopromass.adapters
+package com.cube.pruebatecnicajorgecubedo.adapters
 
 import android.content.Context
 import android.content.Intent
@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.cube.Entry
-import com.cube.pruebatecnicagrupopromass.EntryActivity
-import com.cube.pruebatecnicagrupopromass.R
+import com.cube.pruebatecnicajorgecubedo.EntryActivity
+import com.cube.pruebatecnicajorgecubedo.R
 
 class MyAdapter (private val entryList : List<Entry>, private val context: Context) : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
     private val TAG = MyAdapter::class.simpleName
